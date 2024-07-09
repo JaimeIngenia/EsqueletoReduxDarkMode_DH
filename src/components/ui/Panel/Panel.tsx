@@ -1,5 +1,5 @@
 import { useThemeContext } from "../../../context";
-import Products from "../Products";
+import CleanCodeUno from "../Products";
 import "./Panel.css";
 
 export default function Panel() {
@@ -7,7 +7,7 @@ export default function Panel() {
   return (
     <>
       <div className={`panel-${darkMode ? "dark" : "light"}`}>
-        <Products />
+        <CleanCodeUno />
       </div>
       ;
     </>
