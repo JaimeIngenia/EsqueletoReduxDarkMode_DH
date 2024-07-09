@@ -1,5 +1,5 @@
 import { useThemeContext } from "../../../context";
-import CleanCodeUno from "../Products";
+import CleanCodeUno from "../CleanCodeUno";
 import "./Panel.css";
 
 export default function Panel() {
